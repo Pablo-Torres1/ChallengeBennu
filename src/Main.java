@@ -50,7 +50,7 @@ public class Main {
             writer.println(rand.nextInt(1000));
         }
         writer.close();
-        System.out.println("Numeros aleatorios generados");
+        System.out.println("==Numeros aleatorios generados revise el archivo de txt==");
     }
     public static void ordenarNumeros() throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader("numeros_random.txt"));
@@ -65,7 +65,7 @@ public class Main {
             writer.println(numero);
         }
         writer.close();
-        System.out.println("Numero ordenados");
+        System.out.println("==Numero ordenados revise el archivo txt==");
     }
     public static void buscarNumero(int numeroBuscado) throws IOException{
         BufferedReader reader = new BufferedReader(new FileReader("numeros_random.txt"));
